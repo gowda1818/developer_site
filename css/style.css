@@ -1,0 +1,159 @@
+body {
+  font-family: "segoe ui light";
+}
+
+@font-face {
+  font-family: "my-fonts";
+  src: url(../webfonts/BebasNeue-Regular.ttf);
+}
+
+header {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.line1 {
+  width: 10%;
+}
+
+.line2 {
+  width: 20%;
+}
+
+.profile {
+  background-image: url(../images/light_dot.jpg);
+}
+
+.scaling {
+  color: rgb(211, 194, 194);
+  font-size: 100px;
+  position: relative;
+}
+
+.scaling::after {
+  content: "ABOUT";
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.about {
+  background-image: url("../images/light_dot.jpg");
+}
+
+.title h2 {
+  font-size: 80px;
+  font-weight: bolder;
+  color: rgba(191, 181, 181, 0.604);
+  letter-spacing: 25px;
+  font-family: my-fonts;
+}
+
+.title h3 {
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: 15px;
+  font-family: my-fonts;
+}
+
+.three {
+  background-image: url("../images/dark_dot.jpg");
+}
+
+.section-head h2 {
+  font-size: 80px;
+  font-weight: bolder;
+  color: #222;
+  letter-spacing: 15px;
+  font-family: my-fonts;
+}
+
+.section-head h3 {
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+  letter-spacing: 15px;
+  font-family: my-fonts;
+}
+
+.three > p {
+  color: #9f9797;
+  font-size: 20px;
+  text-align: center;
+  font-family: my-fonts;
+}
+
+.icn {
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 20%;
+  border: 1px solid red;
+  margin: 10px auto;
+}
+
+.service {
+  font-family: my-fonts;
+}
+
+.inner {
+}
+
+.feedback {
+  border: 3px solid wheat;
+}
+
+.inner img {
+  width: 80px;
+  border: 1px solid wheat;
+  border-radius: 50%;
+  transform: translateY(40px);
+}
+.carousel-indicators [data-bs-target] {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-indent: 0;
+}
+.but {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* carousel */
+.inner-product {
+  background-color: #eee;
+  border-radius: 3px;
+}
+.inner-product img {
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.inner-product button {
+  width: 100px;
+  background-color: red;
+  display: block;
+}
+
+/* the nav tab products */
